@@ -1,3 +1,11 @@
+@font-face{
+	font-family: Shiromi;
+	src: url(../assets/fonts/SW_IL_Font.eot); /* IE9 Compat Modes */
+    src: url(../assets/fonts/SW_IL_Font.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+         url(../assets/fonts/SW_IL_Font.woff) format("woff"), /* Modern Browsers */
+         url(../assets/fonts/SW_IL_Font.ttf) format("truetype"), /* Safari, Android, iOS */
+         url(../assets/fonts/SW_IL_Font.svg#SW_IL_Font) format("svg"); /* Legacy iOS */
+}
 .en_sw{
 	font-size:36px;
 	stroke-width:1.5px;
@@ -9,7 +17,7 @@
 	fill:#fff;
 	stroke:#fff;
 	stroke-miterlimit:10;
-	font-family:JK-Gothic-L, JK Gothic L;
+	font-family:Shiromi;
 }
 @media screen and (min-width:992px){
 	#Logo{
