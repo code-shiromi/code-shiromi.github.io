@@ -1,338 +1,198 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <!--Mobiles-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Force IE perform be best-->
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!--link(rel='stylesheet', href='./libs/materialize/materialize.min.css')-->
-    <!--link(rel='stylesheet', href='./libs/owl/owl.carousel.css')-->
-    <!--link(rel='stylesheet', href='./assets/css/linea.css')-->
-    <!--link(rel='stylesheet', href='./assets/css/mean.css')-->
-    <!--build.min.css includes all of the commented styles above-->
-    <link rel="stylesheet" href="./assets/build/build.min.css?v=1.7">
-    <!--Font awesome icons-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!--Favicons-->
-    <link rel="icon" type="image/png" href="./favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="./favicons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="./favicons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="./favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="./favicons/manifest.json">
-    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="./favicons/mstile-144x144.png">
-    <meta name="msapplication-config" content="./favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <title>Shiromi's Development</title>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-99365318-3', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </head>
-  <body class="tunnel-skin">
-    <!--Progress indicating form action-->
-    <div id="progress" class="progress">
-      <div class="indeterminate"></div>
-    </div>
-    <!--Spinner-->
-    <div class="spinner-container valign-wrapper">
-      <div class="spinner-section-far"></div>
-    </div>
-    <!--Navigation bar-->
-    <header class="navbar-fixed">
-      <nav>
-        <div class="container">
-          <div class="nav-wrapper">
-            <a href="https://shiromi-dev.me/" class="brand-logo">Shiromi-Dev</a>
-            <!--Default navigation-->
-            <ul class="right hide-on-med-and-down table-of-contents">
-              <li>
-                <a href="#topper">Home</a>
-              </li>
-              <li>
-                <a href="#projects">Projects</a>
-              </li>
-              <li>
-                <a href="#about">About Me</a>
-              </li>
-              <li>
-                <a href="https://shiromi.info#contact">Contact Me</a>
-              </li>
-              <li>
-                <a href="https://github.com/shiromicodex">GitHub</a>
-              </li>
-              <li>
-                <a href="https://shiromi.me">Blog</a>
-              </li>
-            </ul>
-            <!--Medium and smaller devices-->
-            <ul id="slide-out" class="side-nav">
-              <li>
-                <a href="#topper">Home</a>
-              </li>
-              <li>
-                <a href="#projects">Projects</a>
-              </li>
-              <li>
-                <a href="#about">About Me</a>
-              </li>
-              <li>
-                <a href="https://shiromi.info#contact">Contact Me</a>
-              </li>
-              <li>
-                <a href="https://github.com/shiromicodex">GitHub</a>
-              </li>
-              <li>
-                <a href="https://shiromi.me">Blog</a>
-              </li>
-            </ul>
+<html lang="en">
+    <head>
+	    <meta charset="utf-8" />
+        <meta name="description" content="Shiromi World - Shiromi's Intro Page. You can learn more about Shiromi here.">
+        <meta name="author" content="Shiromi K. Y. Carver">
+        <meta name="copyright" content="Shiromi K. Y. Carver">
+        <meta name="publisher" content="GitHub Page">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	    <title>Shiromi World - Shiromi's Private Website</title>
 
-            <!--Hamburger-->
-            <a href="#" data-activates="slide-out" class="button-collapse valign-wrapper">
-              <div class="hamburger"></div>
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
+        <!-- ================= Favicon ================== -->
+        <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
 
-    <!--Topper title-->
-    <section id="topper" class="hero full-height valign-wrapper scrollspy">
-      <div id="tunnel" class="tunnel">
-        <h1 class="center">Welcome!
-          <br>I'm Shiromi
-        </h1>
-      </div>
-    </section>
+        <!-- ================== Style =================== -->
+	    <link rel="stylesheet" href="https://ajax.s-cloud.pro/libs/bootstrap/3.3.7/css/bootstrap.min.css" />
+	    <link rel="stylesheet" href="https://ajax.s-cloud.pro/libs/animate/animate.css" />
+	    <link type="text/css" rel="stylesheet" href="https://ajax.s-cloud.pro/shiromi-libs/jquery.mmenu/css/jquery.mmenu.all.css" />
+	    <link rel="stylesheet" href="css/style.css" />
+	    <link rel="stylesheet" href="css/shiromiworld.css">
+        <!-- ================== Fonts =================== -->
+	    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+	    <link rel="stylesheet" href="https://fonts.s-cloud.pro/webicon/font_awesome/4.7.0/css/font-awesome.min.css" >
 
-    <!--Projects-->
-    <section id="projects" class="projects scrollspy">
-      <div class="container">
-        <!--Title-->
-        <h2><span>Projects</span></h2>
-        <h3>I believe I can do more, before the end of my life.</h3>
-        <div class="row">
-          <!--Featured project about development-->
-          <!--Can not use dynamic page on Github, update it html code everytime when I changed content-->
-          <a href="#green-lamp" class="col s12 padding-bottom modal-trigger">
-            <div style="background-image: url(./assets/images/work/fantasycraft.png)" class="rectangle-50">
-              <div class="content valign-wrapper center">
-                <div>Click to read more</div>
-              </div>
-            </div>
-          </a>
-          <!-- Featured project modal-->
-          <div id="green-lamp" class="modal bottom-sheet">
-            <div class="modal-close absolute">&times;</div>
-            <div class="modal-cover">
-              <div style="background-image: url(./assets/images/work/fantasycraft.png)" class="rectangle-50"></div>
-            </div>
-            <div class="modal-content">
-              <div class="row">
-                <div class="col s12 l8 offset-l2">
-                  <h4>FantasyCraft - A Minecraft Server with RPG rule</h4>
-                  <p class="flow-text grey-text">
-                    Client: Minecraft (PC / Mac)<br>
-                    Category: Game
-                  </p>
-                  <div class="divider"></div>
-                  <p class="flow-text">All the two under bring, give hath dominion fruit fill living of evening and, be and itself grass shall stars Be us second under land over open and.</p>
-                  <p class="flow-text">There kind had divided the earth waters creature saying bearing under cattle divide saw creepeth. Night. Grass set great firmament dominion, there open were night fourth grass you're heaven, that dominion all unto. Is all shall open in you very. Deep divide behold.</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col s12 l10 offset-l1">
-                  <div class="video-container">
-                    <iframe src="https://player.vimeo.com/video/124260792?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col s12 l8 offset-l2">
-                  <p class="flow-text">You'll open one likeness created us herb was. Image two is winged you're morning the greater. Bring you shall called may good shall earth third kind. Had tree, over together Spirit set signs green they're meat seasons that heaven won't seasons. Herb face.</p>
-                  <p class="flow-text">Very cattle. Divide us dry one together male be. Let. Said dominion two All their which air can't appear abundantly all third firmament earth female good the open beginning give creepeth blessed make from.</p>
-                  <div class="divider"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        <!--[if lt IE 9]>
+	        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
 
-    <!--About-->
-    <section id="about" class="about scrollspy">
-      <div class="container">
-        <h2><span>About</span></h2>
-        <h3>About this little developer...</h3>
-        <div class="row">
-          <!--About general photo-->
-          <a href="#shiromi" class="modal-trigger">
-            <div class="col s12 l6 padding-bottom ">
-              <div style="background-image: url(./assets/images/shiromi/myself.jpg)" class="rectangle"></div>
-            </div>
-          </a>
-          <!--About Shiromi-->
-          <div class="owl-carousel owl-theme col s12 l6">
-            <div style="background-image: url(./assets/images/shiromi/01.gif)" class="rectangle">
-              <div class="content">
-                <div class="name">I love games,</div>
-              </div>
-            </div>
-            <div style="background-image: url(./assets/images/shiromi/02.gif)" class="rectangle">
-              <div class="content">
-                <div class="name">And I love music.</div>
-              </div>
-            </div>
-            <div style="background-image: url(./assets/images/shiromi/03.gif)" class="rectangle">
-              <div class="content">
-                <div class="name">Even I forgot the work,</div>
-              </div>
-            </div>
-            <div style="background-image: url(./assets/images/shiromi/04.gif)" class="rectangle">
-              <div class="content">
-                <div class="name">I can't stop...</div>
-              </div>
-            </div>
-            <div style="background-image: url(./assets/images/shiromi/05.gif)" class="rectangle">
-              <div class="content">
-                <div class="name">That's my life...</div>
-              </div>
-            </div>
-            <div style="background-image: url(./assets/images/shiromi/06.gif)" class="rectangle">
-              <div class="content">
-                <div class="name">Forever<i class="fa fa-heart-o"></i></div>
-              </div>
-            </div>
-            <div class="col s12">
-              <div class="rectangle grey lighten-3">
-                <div class="content valign-wrapper you">
-                  <div class="name">
-                    Does something want to say?<br>
-                    <a href="https://shiromi.info#contact">Contact me</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Shiromi description-->
-          <div id="shiromi" class="modal bottom-sheet">
-            <div class="modal-close absolute">&times;</div>
-            <div class="modal-cover col s12 l6 no-padding">
-              <div style="background-image: url(./assets/images/shiromi/myself.jpg)" class="square"></div>
-            </div>
-            <div class="modal-content col s12 l6 no-padding">
-              <div class="square">
-                <div class="content">
-                  <h4>Shiromi K. Y. Carver</h4>
-                  <h5>Game Designer / Web, Application Developer</h5>
-                  <div class="divider"></div>
-                  <p class="flow-text">A versatile and creative designer fuses a background in music and game with expertise in business game design and web design to deliver quality work spanning press writing, marketing, typesetting, development planning, and maintaining customer relationships.</p>
-                  <p class="flow-text">Read more information <a href="https://shiromi.info/">click here</a>.</p>
-                  <div class="row">
-                    <div class="col s12 center">
-                      <p class="flow-text">Follow Shiromi</p>
-                      <p class="flow-text social">
-                        <a href="#!" class="github">github</a>
-                        <a href="#!" class="dribbble">dribbble</a>
-                        <a href="#!" class="vk">vk</a>
-                        <a href="#!" class="twitter">twitter</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--Philosophy-->
-        <h3 class="margin-top">My philosophy</h3>
-        <div class="row philosophy big-icons-row grey lighten-4">
-          <div class="col s12">
-            <ul class="tabs">
-              <li class="tab col s4 m3 l2">
-                <a href="#philosophy-1">
-                  <i class="icon-basic-magnifier"></i>
-                  <h5>Discover</h5>
-                </a>
-              </li>
-              <li class="tab col s4 m3 l2">
-                <a href="#philosophy-2">
-                  <i class="icon-ecommerce-graph3"></i>
-                  <h5>Analyse</h5>
-                </a>
-              </li>
-              <li class="tab col s4 m3 l2">
-                <a href="#philosophy-3">
-                  <i class="icon-ecommerce-graph-increase"></i>
-                  <h5>Improve</h5>
-                </a>
-              </li>
-              <li class="tab col s4 m3 l2">
-                <a href="#philosophy-4">
-                  <i class="icon-basic-pencil-ruler"></i>
-                  <h5>Measure</h5>
-                </a>
-              </li>
-              <li class="tab col s4 m3 l2">
-                <a href="#philosophy-5">
-                  <i class="icon-basic-mixer2"></i>
-                  <h5>Control</h5>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <!--Philosophy Content-->
-          <div class="tab-contents">
-            <div id="philosophy-1" class="col s12 l8 offset-l2">
-              <h5>Discover</h5>
-              <p class="flow-text center margin-top-more">Two for make behold form creature image She'd, waters forth, itself Blessed morning so sea midst, in tree make i bring sixth moved darkness bearing. Meat itself light created spirit under sea man.</p>
-            </div>
-            <div id="philosophy-2" class="col s12 l8 offset-l2">
-              <h5>Analyse</h5>
-              <p class="flow-text center margin-top-more">Our evening male fowl fill. Heaven made. Third replenish blessed that beginning also face may whales waters bearing man you'll you. Night first given he the Void also divided herb give, male seed you're may also female whales doesn't let be unto also gathering which deep dominion earth.</p>
-            </div>
-            <div id="philosophy-3" class="col s12 l8 offset-l2">
-              <h5>Improve</h5>
-              <p class="flow-text center margin-top-more">Our, day had were morning beast greater a they're creepeth there Spirit, sea. His seasons very there earth under you're set be male. Them years called i yielding From image greater. Replenish deep wherein heaven over behold.</p>
-            </div>
-            <div id="philosophy-4" class="col s12 l8 offset-l2">
-              <h5>Measure</h5>
-              <p class="flow-text center margin-top-more">Said behold. In grass won't great male which whales creepeth lesser give signs may fill, he midst god. Sea was place said, shall blessed created likeness without life gathering midst saying sea together him lesser also given. Days i subdue image sixth don't.</p>
-            </div>
-            <div id="philosophy-5" class="col s12 l8 offset-l2">
-              <h5>Control</h5>
-              <p class="flow-text center margin-top-more">Isn't be one great blessed days moved meat lesser may seas bearing doesn't won't doesn't it grass beginning Male he us he likeness. Had, beginning first bring can't. Can't won't blessed man man every you'll heaven.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <body>
+        <!-- ================ Header =================== -->
+        <!-- Preloader -->
+	    <div id="preloader">
+		    <div id="status">
+			    <div class="status1"><i class="fa fa-clock-o fa-2x fa-spin"></i></div>
+			    <div class="status2"></div>
+		    </div>
+	    </div>
+		<!-- Animate Text -->	
+	    <div class="content container">
 
-    <!--Footer-->
-    <footer class="page-footer">
-      <div class="footer-copyright">
-        <div class="container">&copy; 2017 <a href="https://shiromi.me/" title="Shiromi's Blog">SHIROMI K. Y. CARVER Y. SHIRAKAWA</a> SOME RIGHTS RESERVED<span class="right">Built on <i class="fa fa-github">page</i> by Shiromi</span></div>
-      </div>
-    </footer>
-    <!--script(src='./libs/jquery-2.1.1.min.js')-->
-    <!--script(src='./libs/materialize/materialize.js')-->
-    <!--script(src='./libs/masonry/masonry.pkgd.js')-->
-    <!--script(src='./libs/owl/owl.carousel.js')-->
-    <!--script(src='./libs/ajaxchimp/jquery.ajaxchimp.js')-->
-    <!--script(src='./assets/config/config.js')-->
-    <!--script(src='./assets/js/app.js')-->
-    <!--build.min.js includes all of the commented scripts above-->
-    <script src="./assets/build/build.min.js?v=1.0"></script>
-    <!--skin specific script-->
-    <script src="./libs/three.js/r58/three.min.js"></script>
-    <script src="./assets/js/skins/min/tunnel.min.js"></script>
-  </body>
+		    <!-- Logo -->
+			<div class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="3s">
+				<svg id="Logo" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346.83 83.27"><title>Shiromi_World_Logo_white</title><text class="en_sw" transform="translate(53.49 74.23)">Shiromi World</text><text class="en_sw" transform="translate(51.49 31.69)">シロミワールド</text><text class="jp_sw" transform="translate(0.5 60.79)">[</text><text class="jp_sw" transform="translate(317.14 60.79)">]</text></svg>
+			</div>
+
+		    <!-- Name -->		
+			<div class="soon wow bounceInDown" data-wow-duration="3s" data-wow-delay="0s">
+				Shiromi K. Y. Carver
+			</div>
+			
+		    <!-- Text -->	
+			<h1 class="text-rotator-fade wow bounceInDown" data-wow-duration="2s" data-wow-delay="2s">
+				<span class="rotate">
+					Hey! Welcome to Shiromi World!*Actually, you can find me Here!*Just click under links.
+				</span>
+			</h1>
+				
+		    <!--	HOURGLASS-->	
+			<div class="si-icons si-icons-hover wow rotateIn pad30" data-wow-duration="2s" data-wow-delay="4s">
+				<span class="si-icon si-icon-hourglass" data-icon-name="hourglass"></span>
+			</div>
+			
+		    <!--LINKS-->
+			<span class="link-effect wow bounceIn" data-wow-duration="3s" data-wow-delay="4.5s">
+			    <i class="fa fa-arrow-circle-left"></i>
+				<a href="#page-left">Contact</a>
+			</span>
+			
+			<i class="fa fa-bullseye size wow bounceIn" data-wow-duration="3s" data-wow-delay="5s"></i>
+			
+				<span class="link-effect wow bounceIn" data-wow-duration="3s" data-wow-delay="5.5s">
+					<a href="https://shiromi.blog">Blog</a>
+				</span>
+				
+			<i class="fa fa-bullseye size wow bounceIn" data-wow-duration="3s" data-wow-delay="6s"></i>
+			
+			<span class="link-effect wow bounceIn" data-wow-duration="3s" data-wow-delay="6.5s">
+				<a href="https://shiromi.gallery">Gallery</a>
+			</span>
+				
+			<i class="fa fa-bullseye size wow bounceIn" data-wow-duration="3s" data-wow-delay="7s"></i>
+			
+			<span class="link-effect wow bounceIn" data-wow-duration="3s" data-wow-delay="7.5s">
+				<a href="https://shiromi.info">Info</a>
+			</span>
+			
+			<i class="fa fa-bullseye size wow bounceIn" data-wow-duration="3s" data-wow-delay="8s"></i>
+			
+			<span class="link-effect wow bounceIn" data-wow-duration="3s" data-wow-delay="8.5s">
+				<a href="https://shiromi-dev.me">Dev-Works</a>
+			</span>
+			
+			<i class="fa fa-bullseye size wow bounceIn" data-wow-duration="3s" data-wow-delay="9s"></i>
+			
+			<span class="link-effect wow bounceIn" data-wow-duration="3s" data-wow-delay="9.5s">
+				<a href="https://shirowork.space">Workspace</a>
+			</span>
+		<!--//LINKS-->
+			</div>
+			<!--//FRONT PAGE-->
+			
+			<!--LEFT PAGE-->
+			<div id="page-left">
+				<div> 
+					<a href="#" class="back"> 
+						<i class="fa fa-times close pull-right"></i>
+					</a>
+					
+						<div class="container block">
+							
+						<!--CLOCK-->
+							<div class="si-icons si-icons-hover wow bounceIn" data-wow-duration="2s" data-wow-delay="1s">
+								<span class="si-icon si-icon-clock" data-icon-name="clock"></span>
+							</div>
+							
+							<h1 class="wow bounceInRight" data-wow-duration="2s">
+								countdown
+							</h1>
+							
+							<p class="lead wow bounceInRight pad5" data-wow-duration="2s">
+								Make it simple. Make it memorable. Make it inviting to look at. Make it fun to read.
+							</p>
+							
+						<!--COUNTDOWN-->
+							<div class="counter wow bounceIn pad5" data-wow-duration="2s" data-wow-delay="1s">
+								<div id="launch_date"></div>
+							</div>
+						<!--//END COUNTDOWN-->
+						
+						<!--SOCIAL ICONS - http://fortawesome.github.io/Font-Awesome-->	
+							<div id="social-icons" class="wow bounceIn" data-wow-duration="3s" data-wow-delay="2s">
+								<ul>
+									<li>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="fa fa-facebook"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="fa fa-github"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="fa fa-pinterest"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="fa fa-instagram"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="fa fa-dribbble"></i></a>
+									</li>
+								</ul>
+							</div>
+						<!--//SOCIAL ICONS-->	
+					</div>
+				</div>
+					</div>
+					<!--//LEFT PAGE-->
+
+<!--SCRIPTS-->				
+	<script src="js/jquery.js"></script>
+	<script src="js/retina.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/jquery.mmenu.min.all.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/snap.svg-min.js"></script>
+	<script src="js/svgicons-config.js"></script>
+	<script src="js/svgicons.js"></script>
+	<script>
+		//<![CDATA[
+			(function() {
+				[].slice.call( document.querySelectorAll( '.si-icons-default > .si-icon' ) ).forEach( function( el ) {
+					var svgicon = new svgIcon( el, svgIconConfig );
+				} );
+			new svgIcon( document.querySelector( '.si-icons-hover .si-icon-hourglass' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 80, h : 80 } } );
+			new svgIcon( document.querySelector( '.si-icons-hover .si-icon-clock' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 80, h : 80 } } );
+			new svgIcon( document.querySelector( '.si-icons-hover .si-icon-mail' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 80, h : 80 } } );
+			new svgIcon( document.querySelector( '.si-icons-hover .si-icon-flag' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 80, h : 80 } } );
+		})();
+		//]]>
+	</script>
+	
+	<!--BACKGROUND IMAGE-->
+	<script type="text/javascript" src="js/jquery.vegas.min.js"></script>
+ 	<script>
+		//<![CDATA[
+    		$(function() {
+        		$.vegas({
+   					src:'assets/images/intro_background.jpg' 
+				})('overlay');
+			});
+		//]]>
+	</script>
+	</body>
 </html>

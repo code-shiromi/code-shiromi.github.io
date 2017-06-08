@@ -1,0 +1,25 @@
+.en_sw{
+	font-size:36px;
+	stroke-width:1.5px;
+}
+.jp_sw{
+	font-size:64px;
+}
+.en_sw,.jp_sw{
+	fill:#fff;
+	stroke:#fff;
+	stroke-miterlimit:10;
+	font-family:JK-Gothic-L, JK Gothic L;
+}
+@media screen and (min-width:992px){
+	#Logo{
+	width: 40%;
+	height: auto;
+}
+}
+@media screen and (min-width:1px) and (max-width:992px){
+	#Logo{
+	width: 80%;
+	height: auto;
+}
+}
