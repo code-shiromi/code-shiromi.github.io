@@ -1,0 +1,11 @@
+/*---------------------------------------------------
+       ==== Shiromi's SW Logo CSS Files ====
+	        Version: 1.0.0
+	    Last Update: 09 June, 2017
+             Author: Shiromi K. Y. Carver
+            Website: shiromi.site
+             E-mail: me@shiromi.info
+	   Copyright 2017 by Shiromi K. Y. Carver
+       ======================================
+---------------------------------------------------*/
+@font-face{font-family:Shiromi;src:url(../fonts/SW_IL_Font.eot);src:url(../fonts/SW_IL_Font.eot?#iefix) format("embedded-opentype"),url(../fonts/SW_IL_Font.woff) format("woff"),url(../fonts/SW_IL_Font.ttf) format("truetype"),url(../assets/fonts/SW_IL_Font.svg#SW_IL_Font) format("svg");}.en_sw{font-size:36px;stroke-width:1.5px;}.jp_sw{font-size:64px;}.en_sw,.jp_sw{fill:#fff;stroke:#fff;stroke-miterlimit:10;font-family: Shiromi;}@media screen and (min-width:992px){#Logo{width: 40%;height: auto;}}@media screen and (min-width:1px) and (max-width:992px){#Logo{width: 80%;height:auto;}}
