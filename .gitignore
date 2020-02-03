@@ -112,4 +112,6 @@ venv.bak/
 # Testing Files
 .test
 test/
-info.*
+
+# Custom
+rdn-quote.vue
