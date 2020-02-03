@@ -1,0 +1,101 @@
+#loader {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #efefef;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+/* Add animation to "page content" */
+header, nav, section, footer {
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+  
+@-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+}
+  
+@keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+}
+
+div.loading div#logo-fish {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22%;
+    user-select: none;
+    }
+
+    div.loading div#logo-fish svg g#shiro-fish {
+        fill: #4d4d4d;
+        } 
+
+        div.loading div#gear {
+            position: absolute;
+        }
+
+@keyframes gear-rolling {
+    0% { transform: rotate(0deg) }
+   50% { transform: rotate(18deg) }
+  100% { transform: rotate(36deg) }
+}
+.gear-rolling > div {
+  transform-origin: 100px 100px;
+  animation: gear-rolling 0.625s infinite linear;
+}
+.gear-rolling > div div {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    background: #4d4d4d;
+    left: 100px;
+    top: 100px;
+    transform: translate(-50%,-50%);
+}
+.gear-rolling > div div:nth-child(1) {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.gear-rolling > div div:nth-child(7) {
+    width: 8px;
+    height: 8px;
+    background: #efefef;
+    border-radius: 50%;
+}.gear-rolling > div div:nth-child(3) {
+  transform: translate(-50%,-50%) rotate(36deg)
+}.gear-rolling > div div:nth-child(4) {
+  transform: translate(-50%,-50%) rotate(72deg)
+}.gear-rolling > div div:nth-child(5) {
+  transform: translate(-50%,-50%) rotate(108deg)
+}.gear-rolling > div div:nth-child(6) {
+  transform: translate(-50%,-50%) rotate(144deg)
+}
+.loadingio-spinner-gear-6rmopohzjcg {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.gear-rolling {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+.gear-rolling div {
+    box-sizing: content-box;
+}
