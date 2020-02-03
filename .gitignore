@@ -112,3 +112,4 @@ venv.bak/
 # Testing Files
 .test
 test/
+info.*
