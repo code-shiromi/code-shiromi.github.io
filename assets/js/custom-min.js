@@ -1,1 +1,1 @@
-var myVar;function loading(){myVar=setTimeout(showPage,1500)}function showPage(){document.getElementById("loader").style.display="none"}
+var s;function loading(){s=setTimeout(showPage,1500)}function showPage(){document.getElementById("loader").style.display="none"}function getYear(){var e=(new Date).getFullYear();document.getElementById("Year").innerHTML=e}

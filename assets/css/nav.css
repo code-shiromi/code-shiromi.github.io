@@ -1,17 +1,16 @@
-/* Navigation */
-div.navigation {
-    padding-top: 46px;
-    padding-bottom: 8px;
-    display: table;
-    margin: 0 auto;
-}
-
+/*
+    This style file use for SHIROMI.WORLD only.
+    Author: Manose K. Y. Carver Y. Shirakawa (Shiromi)
+    E-mail: me@shiromi.info
+    Website: https://shiromi.world
+    This file under the Creative Commons Attribution 4.0 license (CC BY-NC-ND 4.0).
+    https://creativecommons.org/licenses/by-nc-nd/4.0/
+*/
 ul#buttons {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 15px;
-}
+    font-size: 15px;}
 
 a span {
     z-index: -1;
@@ -85,15 +84,11 @@ li.ln {
         width: 3px;
         height: 3px;
         background-color: #4d4d4d;
-        transform: rotate(45deg);
-    }
+        transform: rotate(45deg);}
 li.mg {
     float: left;
-    text-align: center;
-}
+    text-align: center;}
 li.mg-1 {
-    margin-right: 30px;
-}
+    margin-right: 30px;}
 li.mg-2 {
-    margin-right: 26px;
-}
+    margin-right: 26px;}
